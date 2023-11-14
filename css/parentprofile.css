@@ -1,0 +1,213 @@
+/* -------common css START--------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* -------common css END--------- */
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* ---------NAVBAR CSS START------------ */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.178);
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 35px;
+    padding-left: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    z-index: 15;
+}
+.navbar-expand .navbar-nav .nav-link:hover{
+    color: #fa6f2f;
+    transition: all linear 0.5s;
+}
+.navbtn button{
+    padding: 14px 28px;
+    background: #00d1ae;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.navbtn:hover{
+    background: #f36928;
+    color: #ffffff;
+    border-radius: 50px;
+   
+} 
+
+/* ---------BANNER CSS START------------ */
+
+#banner{
+    background: linear-gradient(90deg, rgba(255, 0, 229, 0.51) 0%, rgba(0, 158, 149, 0.95) 100%);
+    padding-top: 144px;
+    padding-bottom: 144px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.banner-details{
+    z-index: 3;
+}
+
+#banner h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4.80px;
+    word-wrap: break-word;
+    margin: 0 auto;
+    width: 1033px;
+    padding-bottom: 60px;
+}
+.userdisplay p{
+    color: #FFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: right;
+}
+
+.editbtn{
+    text-align: start;
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+    padding: 15px 75px;
+    border-radius: 10px;
+}
+.userinfodisplay{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    /* margin-top: 10px; */
+}
+.userinfodisplay p{
+    padding-top: 8px;
+}
+
+.registrationpart{
+    width: 850px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: fixed;
+    min-height: 100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.registrationpart .header{
+    width: 100%;
+    height: 110px;
+    background: rgba(7.65, 7.65, 7.65, 0.75);
+    display: flex;
+}
+.registrationpart .header p{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    letter-spacing: 1.60px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.adchild{
+    width: 218px;
+    background: #14F700;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    color: #FFF;  
+}
+.adchild:hover{
+    background: #13e000;
+    border: rgb(255, 255, 255) 2px solid;
+}
+.adchild.style {
+    height: 40px;
+}
+.onec{
+    background: white;
+    display: flex;
+    padding: 10px 5px;
+}
+.onectext{
+    width: 330px;
+}
+
+.onecbtn{
+    width: 320px;
+}
+.schedule{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 0;
+}
+.schedule:hover{
+    background: #FFF;
+    color: black;
+}
+.edit{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+.edit:hover{
+    background: #FFF;
+    color: black;
+}
+.twoc{
+    display: flex;
+    background: rgba(7.65, 7.65, 7.65, 0.24);
+    padding: 10px 5px;
+}
+
+.threec{
+    background: white;
+    display: flex;
+    padding: 10px 5px;
+}
+.fourc{
+    display: flex;
+    background: rgba(7.65, 7.65, 7.65, 0.24);
+    padding: 10px 5px;
+}
