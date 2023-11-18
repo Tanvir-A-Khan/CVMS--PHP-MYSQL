@@ -50,18 +50,6 @@ The system includes an automated setup to create necessary database tables. Upon
 - Use `homepage.php` as the entry point to the application.
 - Navigate through the intuitive interface to manage vaccination schedules and records efficiently.
 
-## Contributions
 
-Contributions and suggestions for improvements are welcome! If you'd like to enhance this project, please submit a pull request following the [Contributing Guidelines](CONTRIBUTING.md).
-
-## Issues
-
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/your-username/child-vaccination-system/issues).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 Feel free to modify any sections or add more details to make it even clearer for users to set up and use your application. This README provides a step-by-step guide for installation and usage, ensuring a smooth experience for anyone interested in trying out your system.
