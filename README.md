@@ -19,7 +19,7 @@ This system is designed to streamline child vaccination records and management u
 1. **Clone or Download the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/child-vaccination-system.git
+    git clone https://github.com/Tanvir-A-Khan/child-vaccination-system.git
     ```
 
 2. **Move the Files:**
